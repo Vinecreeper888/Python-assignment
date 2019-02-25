@@ -59,8 +59,12 @@ for i in a:
 #digit is even (list)
 res = []
 for i in range(1000,3001):
-	if i % 2 == 0:
-		res.append(i)
+	for j in str(i):
+		#print(j)
+		if int(j)%2 == 0:
+			res.append(i)
+		else:
+			break
 print(res)
 """
 
