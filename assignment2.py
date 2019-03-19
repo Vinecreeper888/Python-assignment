@@ -1,4 +1,4 @@
-"""
+
 #1. Write a program to replace the line which starts with "From" to "To" and vice versa
 n = input("Enter filename:")
 count = 0
@@ -14,10 +14,10 @@ try:
 		print(line)
 except:
 	print("Enter a valid filename.")
-"""
+	
 
 
-"""
+	
 #2. Write a program to read through a file and print contents of the file, all in
 #upper case letters
 n = input("Enter filename:")
@@ -30,10 +30,10 @@ try:
 		print(line)
 except:
 	print("Enter a valid filename.")
-"""
+	
 
 
-"""
+
 #3. Write a program too extract all the numbers in a file.
 num = ['1','2','3','4','5','6','7','8','9','0']
 n = input("Enter filename:")
@@ -46,10 +46,10 @@ try:
 
 except:
 	print("Enter a valid filename")
-"""
 
 
-"""
+
+
 #4. Write a program to read a file line by line and write each line in reverse order in 
 #another file.
 n = input("Enter filename:")
@@ -62,7 +62,7 @@ try:
 		f2.write(line)
 except:
 	print("Enter a valid filename.")
-"""
+	
 
 
 
