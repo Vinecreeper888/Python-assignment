@@ -72,9 +72,16 @@ print(res)
 #6. Accept a sentence eg: "Hello World!! 123",calculate number of letters and digits
 #in that sentence
 
-import collections
-n = "Hello World!! 123"
-print(collections.Counter(n))
+a = {}
+n = input("Enter a string:")
+for i in n:
+	if 
+	if i in a:
+		a[i] = a[i] + 1
+	else:
+		a[i] = 1
+print(a)
+
 
 """
 
