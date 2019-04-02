@@ -69,8 +69,7 @@ for line in fhand:
 	#line = line.split()
 	#line = line.lstrip()
 	at = line.find('@')
-	if line.startswith('From:'):
-		res.append(line[5:at])
+	res.append(line[5:at])
 for i in res:
 	if i in a:
 		a[i] = a[i] + 1
