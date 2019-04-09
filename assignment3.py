@@ -78,6 +78,26 @@ for i in res:
 print(max(a))
 """
 
+#4. dictionary to tell how many times a letter repeats consecutively in a string
+n = input("Enter a string:")
+a = {}
+#m = int(input("Enter a number:"))
+for i in range(0,len(n)):
+	if n[i-1] == n[i]:
+		if n[i] in a:
+			#a[n[i]] = 1
+			a[n[i]] = a[n[i]] + 1
+		else:
+			#n[i] = a[n[i]] + 1
+			a[n[i]] = 1
+	else:
+		if n[i] in a:
+			#a[n[i]] = 1
+			a[n[i]] = a[n[i]] + 1
+		else:
+			#n[i] = a[n[i]] + 1
+			a[n[i]] = 0
+print(a)
 
 
 
